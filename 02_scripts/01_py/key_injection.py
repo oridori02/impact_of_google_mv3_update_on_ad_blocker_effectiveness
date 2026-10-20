@@ -1,128 +1,70 @@
-# -*- coding: utf-8 -*-
 """
-Last edited: 08.12.2025
-Last modifications: Formatting
-Ensures each unpacked extension:
-  • Has a base64‑encoded 'key' in its manifest.json
-  • Gets a human‑readable 'name'—either from your overrides or derived from its folder name
-The script ensures extensions have a key that allows the main crawler to call extension sites.
+Key Injection Script (Forced RSA 2048-bit Regeneration)
+Sobrescribe incondicionalmente el campo 'key' con claves RSA DER validas
+para asegurar que Chrome reconozca las IDs calculadas.
 """
 
-# Import packages
 import os
 import json
 import base64
-from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives import serialization
 
-# Derive extension name from path
-def derive_name_from_path(ext_dir):
-    # Take the parent folder name, replace underscores/hyphens, title‑case
-    folder = os.path.basename(os.path.dirname(ext_dir))
-    return folder.replace("_", " ").replace("-", " ").title()
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+EXTENSIONS_DIR = os.path.join(REPO_ROOT, "01_data", "extensions")
 
-# Helper function to inject key/names into extension
-def ensure_extension_key_and_name(
-    manifest_path, override_name=None, pem_output_path=None
-):
-    """
-    Reads manifest.json, injects a new 'key' if missing,
-    sets 'name' to override_name if given (else leaves existing or derived),
-    and optionally saves the private key to a PEM file.
-    """
-    with open(manifest_path, "r+", encoding="utf-8") as f:
-        manifest = json.load(f)
+print(f"Buscando extensiones en: {EXTENSIONS_DIR}\n")
 
-        # 1) Override or set the name
-        if override_name:
-            manifest["name"] = override_name
+manifests_encontrados = []
+for root, dirs, files in os.walk(EXTENSIONS_DIR):
+    if "manifest.json" in files:
+        manifests_encontrados.append(os.path.join(root, "manifest.json"))
 
-        # 2) Generate & inject a new key if missing
-        if "key" not in manifest:
-            private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
-            public_der = private_key.public_key().public_bytes(
-                serialization.Encoding.DER,
-                serialization.PublicFormat.SubjectPublicKeyInfo,
-            )
-            manifest["key"] = base64.b64encode(public_der).decode("ascii")
-            print(f"Injected new key into {manifest_path}")
+print(f"Se encontraron {len(manifests_encontrados)} extensiones.\n")
 
-            # 3) Optionally write out the private key
-            if pem_output_path:
-                with open(pem_output_path, "wb") as pem_file:
-                    pem_file.write(
-                        private_key.private_bytes(
-                            encoding=serialization.Encoding.PEM,
-                            format=serialization.PrivateFormat.PKCS8,
-                            encryption_algorithm=serialization.NoEncryption(),
-                        )
-                    )
-                print(f"Saved private key to {pem_output_path}")
+for manifest_path in manifests_encontrados:
+    try:
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
 
-        # 4) Write back any changes (name and/or key)
-        f.seek(0)
-        json.dump(manifest, f, ensure_ascii=False, indent=2)
-        f.truncate()
+        ext_name = manifest.get("name", "Unknown Extension")
+        rel_path = os.path.relpath(manifest_path, EXTENSIONS_DIR)
 
-# Function to inject key/names into extension
-def inject_keys_into_extensions(extension_dirs, name_overrides, save_priv_key=True):
-    """
-    For each unpacked extension directory:
-      • Determine the override_name (from name_overrides) or derive it from the path
-      • Ensure its manifest.json has both 'key' and the correct 'name'
-    """
-    for ext_dir in extension_dirs:
-        manifest_path = os.path.join(ext_dir, "manifest.json")
-        if not os.path.isfile(manifest_path):
-            print(f"Skipping {ext_dir}: manifest.json not found")
-            continue
+        # 1. Generar nueva clave RSA de 2048 bits valida
+        private_key = rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=2048
+        )
 
-        # use override if present, otherwise derive from folder name
-        override_name = name_overrides.get(ext_dir) or derive_name_from_path(ext_dir)
-        pem_path = os.path.join(ext_dir, "extension_key.pem") if save_priv_key else None
+        # 2. Extraer clave publica en formato estandar DER SubjectPublicKeyInfo
+        public_key_der = private_key.public_key().public_bytes(
+            encoding=serialization.Encoding.DER,
+            format=serialization.PublicFormat.SubjectPublicKeyInfo
+        )
 
-        ensure_extension_key_and_name(manifest_path, override_name, pem_path)
+        # 3. Codificar en Base64 sin saltos de linea
+        public_key_b64 = base64.b64encode(public_key_der).decode("utf-8")
 
-########################## Execution Block ###########################
-if __name__ == "__main__":
-    # Define your extension directories:
-    # extension_path1  = XXX
-    # extension_path2  = XXX
-    # extension_path3  = XXX
-    # extension_path4  = XXX
-    # extension_path5  = XXX
-    # extension_path6  = XXX
-    # extension_path7  = XXX
-    # extension_path8  = XXX
-    # extension_path9  = XXX
-    # extension_path10 = XXX
-    # extension_path11 = XXX
-  
-    extensions = [
-        extension_path1,
-        extension_path2,
-        extension_path3,
-        # extension_path4,
-        # extension_path5,
-        # extension_path6,
-        # extension_path7,
-        # extension_path8,
-        # extension_path9,
-        # extension_path10,
-        # extension_path11,
-        # extension_path12,
-        # extension_path13,
-    ]
+        # 4. Sobrescribir siempre el campo 'key'
+        manifest["key"] = public_key_b64
 
-    # only override the first three; all others will get derived names
-    name_overrides = {
-        extension_path1: "Super Agent - Automatic cookie consent",
-        extension_path2: "Azerion Ad Expert",
-        extension_path3: "HTTP Traffic and Cookie Recorder",
-    }
+        # Si es http-recorder, garantizar web_accessible_resources
+        if "http-recorder" in manifest_path:
+            manifest["web_accessible_resources"] = [
+                "popup.html",
+                "popup.js",
+                "jquery-3.7.1.min.js",
+                "jquery.csv.min.js",
+                "*"
+            ]
 
-    inject_keys_into_extensions(extensions, name_overrides)
-    print("All manifests updated.")
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2, ensure_ascii=False)
 
+        print(f"[REGENERATED] Clave RSA valida inyectada: {ext_name} ({rel_path})")
 
+    except Exception as e:
+        print(f"[ERROR] Error procesando {manifest_path}: {e}")
 
+print("\nRegeneracion completa con exito.")

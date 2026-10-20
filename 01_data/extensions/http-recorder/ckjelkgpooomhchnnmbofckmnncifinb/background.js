@@ -1,7 +1,20 @@
 var recordedData = [];
 var lastVisitedPages = [];
 
-// Record HTTP requests 
+// Ciclo de vida Service Worker
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(clients.claim());
+});
+
+chrome.runtime.onInstalled.addListener(() => {
+  console.log("HTTP Recorder instalado y activo.");
+});
+
+// Registrar solicitudes HTTP
 chrome.webRequest.onCompleted.addListener(
   function(details) {
     recordedData.push(details);
@@ -9,7 +22,7 @@ chrome.webRequest.onCompleted.addListener(
   { urls: ["<all_urls>"] }
 );
 
-// Listen for tab URL updates
+// Registrar cambios de URL
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   if (changeInfo.url) {
     if (!changeInfo.url.startsWith("chrome://") && 
@@ -20,7 +33,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   }
 });
 
-// Message listener to send recorded data and last visited page.
+// Listener de mensajes para getData y getLastVisitedPage
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if (request.cmd === "getData") {
@@ -29,18 +42,6 @@ chrome.runtime.onMessage.addListener(
     else if (request.cmd === "getLastVisitedPage") {
       sendResponse(lastVisitedPages[lastVisitedPages.length - 1]);
     }
+    return true; // Mantiene el canal abierto para respuesta asincrona
   }
 );
-
-// Listen for message events from the webpage
-window.addEventListener('message', function(event) {
-  // Check the origin of the message
-  if (event.source !== window)
-    return;
-
-  // Check the message content
-  if (event.data.type && (event.data.type == 'FETCH_HTTP_DATA')) {
-    // Send back recorded HTTP data to the webpage
-    window.postMessage({type: 'HTTP_DATA', trafficData: recordedData}, '*');
-  }
-}, false);
