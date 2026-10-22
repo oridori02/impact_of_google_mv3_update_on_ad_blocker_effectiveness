@@ -4,96 +4,96 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
-# Determinar la raíz del repositorio basándose en la ubicación del script
+# Determine the repository root based on the script's location
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 
 INPUT_CSV = os.path.join(REPO_ROOT, "01_data", "top_1000_websites_tranco.csv")
-OUTPUT_CSV = os.path.join(REPO_ROOT, "01_data", "websites_subpages_20.csv")
+OUTPUT_CSV = os.path.join(REPO_ROOT, "01_data", "websites_subpages.csv")
 TARGET_COUNT = 20
 
-# Cargar el dataset de 1000 sitios
+# Load the dataset of 1000 sites
 df = pd.read_csv(INPUT_CSV)
 
-# Detectar columna del dominio
+# Detect the domain column
 col_domain = next((c for c in df.columns if c.lower() in ["domain", "url", "site", "website"]), df.columns[0])
 
-# Estratificación: muestreo espaciado a lo largo de la lista
+# Stratification: evenly spaced sampling across the list
 step = max(1, len(df) // (TARGET_COUNT * 3))
-candidatos = df.iloc[::step].to_dict('records')
+candidates = df.iloc[::step].to_dict('records')
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 }
 
-extensiones_estaticas = (".jpg", ".jpeg", ".png", ".gif", ".pdf", ".zip", ".css", ".js", ".svg", ".webp", ".mp4")
-validados = []
+static_extensions = (".jpg", ".jpeg", ".png", ".gif", ".pdf", ".zip", ".css", ".js", ".svg", ".webp", ".mp4")
+validated = []
 
-print(f"Buscando {TARGET_COUNT} sitios con subpágina válida a partir de:\n{INPUT_CSV}\n")
+print(f"Looking for {TARGET_COUNT} sites with a valid subpage starting from:\n{INPUT_CSV}\n")
 
-for row in candidatos:
-    if len(validados) >= TARGET_COUNT:
+for row in candidates:
+    if len(validated) >= TARGET_COUNT:
         break
 
-    dominio_raw = str(row[col_domain]).strip()
-    if not dominio_raw or dominio_raw == "nan":
+    raw_domain = str(row[col_domain]).strip()
+    if not raw_domain or raw_domain == "nan":
         continue
 
-    url_base = dominio_raw if dominio_raw.startswith("http") else f"https://{dominio_raw}"
+    base_url = raw_domain if raw_domain.startswith("http") else f"https://{raw_domain}"
 
     try:
-        # 1. Probar conectividad con la portada
-        res = requests.get(url_base, headers=headers, timeout=8, allow_redirects=True)
+        # 1. Test connectivity with the homepage
+        res = requests.get(base_url, headers=headers, timeout=8, allow_redirects=True)
         if res.status_code != 200:
             continue
 
-        contenido = res.text.lower()
-        if "cf-browser-verification" in contenido or "just a moment..." in contenido or "captcha" in contenido:
+        content = res.text.lower()
+        if "cf-browser-verification" in content or "just a moment..." in content or "captcha" in content:
             continue
 
-        # 2. Parsear el DOM buscando una subpágina interna
+        # 2. Parse the DOM looking for an internal subpage
         soup = BeautifulSoup(res.text, "html.parser")
-        dominio_final = urlparse(res.url).netloc
-        subpagina_elegida = None
+        final_domain = urlparse(res.url).netloc
+        chosen_subpage = None
 
         for link in soup.find_all("a", href=True):
             href = link["href"].strip()
             if not href or href.startswith(("#", "mailto:", "javascript:", "tel:")):
                 continue
 
-            url_completa = urljoin(res.url, href)
-            parsed_url = urlparse(url_completa)
+            full_url = urljoin(res.url, href)
+            parsed_url = urlparse(full_url)
 
-            # Validar que sea del mismo dominio y ruta interna no estática
-            if (parsed_url.netloc == dominio_final and 
+            # Validate that it belongs to the same domain and is a non-static internal path
+            if (parsed_url.netloc == final_domain and 
                 len(parsed_url.path) > 1 and 
                 parsed_url.scheme in ["http", "https"] and 
-                not any(url_completa.lower().endswith(ext) for ext in extensiones_estaticas)):
+                not any(full_url.lower().endswith(ext) for ext in static_extensions)):
 
-                # Comprobar que la subpágina responde 200
-                res_sub = requests.get(url_completa, headers=headers, timeout=8, allow_redirects=True)
+                # Check that the subpage responds with 200
+                res_sub = requests.get(full_url, headers=headers, timeout=8, allow_redirects=True)
                 if res_sub.status_code == 200:
-                    subpagina_elegida = url_completa
+                    chosen_subpage = full_url
                     break
 
-        if subpagina_elegida:
-            registro = {
-                "domain": dominio_final,
+        if chosen_subpage:
+            record = {
+                "domain": final_domain,
                 "homepage_url": res.url,
-                "subpage_url": subpagina_elegida
+                "subpage_url": chosen_subpage
             }
             for rank_col in ["rank", "tranco_rank", "Tranco_Rank"]:
                 if rank_col in row:
-                    registro["tranco_rank"] = row[rank_col]
+                    record["tranco_rank"] = row[rank_col]
                     break
 
-            validados.append(registro)
-            print(f"[{len(validados)}/{TARGET_COUNT}] {dominio_final} -> {subpagina_elegida}")
+            validated.append(record)
+            print(f"[{len(validated)}/{TARGET_COUNT}] {final_domain} -> {chosen_subpage}")
 
     except Exception:
         continue
 
-# Guardar el dataset resultante en 01_data/
-df_salida = pd.DataFrame(validados)
-df_salida.to_csv(OUTPUT_CSV, index=False)
-print(f"\nDataset completado con éxito en:\n{OUTPUT_CSV}")
+# Save the resulting dataset in 01_data/
+output_df = pd.DataFrame(validated)
+output_df.to_csv(OUTPUT_CSV, index=False)
+print(f"\nDataset completed successfully at:\n{OUTPUT_CSV}")

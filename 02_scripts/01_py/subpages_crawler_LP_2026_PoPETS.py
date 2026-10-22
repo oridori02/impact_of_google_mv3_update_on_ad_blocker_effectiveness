@@ -154,21 +154,21 @@ def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
         print(f"  [SKIP] {os.path.basename(home_file)} already exists.")
 
     # # --- 2. SUBPAGE ---
-    # if sub_url and sub_url.strip():
-    #     sub_file = os.path.join(RESULTS_DIR, f"subpage-{safe_domain}-{ext_tag}-ads.csv")
-    #     if not os.path.exists(sub_file):
-    #         print(f"\n[SUBPAGE] Navigating to: {sub_url}")
-    #         try:
-    #             # Drain residual logs prior to subpage navigation
-    #             driver.get_log('performance')
-    #             driver.get(sub_url)
-    #             time.sleep(6)
-    #             sub_reqs = collect_network_requests(driver)
-    #             export_network_csv(sub_file, sub_reqs)
-    #         except Exception as e:
-    #             print(f"  [ERROR] Failed to crawl subpage {sub_url}: {e}")
-    #     else:
-    #         print(f"  [SKIP] {os.path.basename(sub_file)} already exists.")
+    if sub_url and sub_url.strip():
+         sub_file = os.path.join(RESULTS_DIR, f"subpage-{safe_domain}-{ext_tag}-ads.csv")
+         if not os.path.exists(sub_file):
+             print(f"\n[SUBPAGE] Navigating to: {sub_url}")
+             try:
+                 # Drain residual logs prior to subpage navigation
+                 driver.get_log('performance')
+                 driver.get(sub_url)
+                 time.sleep(6)
+                 sub_reqs = collect_network_requests(driver)
+                 export_network_csv(sub_file, sub_reqs)
+             except Exception as e:
+                 print(f"  [ERROR] Failed to crawl subpage {sub_url}: {e}")
+         else:
+             print(f"  [SKIP] {os.path.basename(sub_file)} already exists.")
 
 
 def create_driver(extension_paths):
@@ -233,7 +233,7 @@ def main():
     print("=== STARTING SUBPAGES CRAWLER (CDP PERFORMANCE ENGINE) ===")
     
     targets = load_sites(SITES_FILE)
-    targets = targets[:1]
+    targets = targets[:6]
     if not targets:
         # Fallback to test domain if sites file is empty
         print("[INFO] No sites found in file. Using default target for demonstration.")
