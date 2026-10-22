@@ -7,6 +7,7 @@ import shutil
 import tempfile
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import TimeoutException
 
 # --- BASE DIRECTORIES ---
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -144,7 +145,10 @@ def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
         try:
             # Drain residual logs prior to navigation
             driver.get_log('performance')
-            driver.get(home_url)
+            try:
+                driver.get(home_url)
+            except TimeoutException:
+                pass
             time.sleep(6)  # Allow ad scripts to execute and send requests
             home_reqs = collect_network_requests(driver, page_url=home_url)
             export_network_csv(home_file, home_reqs)
@@ -157,16 +161,19 @@ def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
     if sub_url and sub_url.strip():
          sub_file = os.path.join(RESULTS_DIR, f"subpage-{safe_domain}-{ext_tag}-ads.csv")
          if not os.path.exists(sub_file):
-             print(f"\n[SUBPAGE] Navigating to: {sub_url}")
-             try:
+            print(f"\n[SUBPAGE] Navigating to: {sub_url}")
+            try:
                  # Drain residual logs prior to subpage navigation
                  driver.get_log('performance')
-                 driver.get(sub_url)
+                 try:
+                    driver.get(sub_url)
+                 except TimeoutException:
+                    pass
                  time.sleep(6)
                  sub_reqs = collect_network_requests(driver)
                  export_network_csv(sub_file, sub_reqs)
-             except Exception as e:
-                 print(f"  [ERROR] Failed to crawl subpage {sub_url}: {e}")
+            except Exception as e:
+                print(f"  [ERROR] Failed to crawl subpage {sub_url}: {e}")
          else:
              print(f"  [SKIP] {os.path.basename(sub_file)} already exists.")
 
@@ -192,7 +199,9 @@ def create_driver(extension_paths):
     # Native performance logging for HTTP/HTTPS network interception
     opts.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
 
-    return webdriver.Chrome(options=opts)
+    driver = webdriver.Chrome(options=opts)
+    driver.set_page_load_timeout(100)
+    return driver
 
 
 def load_sites(file_path):
