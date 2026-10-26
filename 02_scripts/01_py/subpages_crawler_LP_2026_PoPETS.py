@@ -89,18 +89,38 @@ def get_extension_group_label(group_paths):
     return "-".join(names) if names else "no-extension"
 
 
+# Only blocks made by extensions (ad blockers) count. Chrome's own blocks
+# (CSP, mixed content, CORP, ...) and inline data: URLs are ordinary page behaviour.
+BLOCKED_ERRORS = ("ERR_BLOCKED_BY_CLIENT",)
+EXTENSION_SCHEMES = ("chrome-extension://",)
+
+
 def collect_network_requests(driver, page_url=""):
-    """Extracts Network.requestWillBeSent records including initiator for R compatibility."""
+    """Extracts Network.requestWillBeSent records including initiator, plus a 'blocked'
+    flag for requests an ad blocker stopped (failed with net::ERR_BLOCKED_BY_CLIENT,
+    or redirected to a local extension placeholder), so they can be excluded later."""
     logs = driver.get_log('performance')
     requests = []
+    last_hop = {}        # requestId -> index of the latest record for that request
+    blocked_ids = set()  # requestIds that failed because a blocker stopped them
     for entry in logs:
         try:
             log_obj = json.loads(entry['message'])
             msg = log_obj.get('message', {})
-            if msg.get('method') == 'Network.requestWillBeSent':
-                params = msg.get('params', {})
+            params = msg.get('params', {})
+            if msg.get('method') == 'Network.loadingFailed':
+                error = params.get('errorText', '') or ''
+                if any(e in error for e in BLOCKED_ERRORS):
+                    blocked_ids.add(params.get('requestId'))
+            elif msg.get('method') == 'Network.requestWillBeSent':
                 req = params.get('request', {})
-                
+                request_id = params.get('requestId')
+                url = req.get('url', '')
+
+                # A redirect to an extension placeholder means the previous hop was blocked
+                if request_id in last_hop and url.startswith(EXTENSION_SCHEMES):
+                    requests[last_hop[request_id]]['blocked'] = True
+
                 # Extract initiator URL for R's first-party vs third-party calculation
                 initiator_obj = params.get('initiator', {})
                 initiator_url = initiator_obj.get('url', '')
@@ -118,11 +138,19 @@ def collect_network_requests(driver, page_url=""):
                     'timestamp': params.get('wallTime', time.time()),
                     'method': req.get('method', ''),
                     'type': params.get('type', 'Other'),
-                    'url': req.get('url', ''),
-                    'initiator': initiator_url
+                    'url': url,
+                    'initiator': initiator_url,
+                    # placeholder hops served by the extension never left the browser
+                    'blocked': url.startswith(EXTENSION_SCHEMES),
                 })
+                last_hop[request_id] = len(requests) - 1
         except Exception:
             continue
+
+    # Only the last hop of a blocked request was stopped; earlier redirect hops went out
+    for request_id in blocked_ids:
+        if request_id in last_hop:
+            requests[last_hop[request_id]]['blocked'] = True
     return requests
 
 def export_network_csv(filepath, requests_data):
@@ -130,10 +158,12 @@ def export_network_csv(filepath, requests_data):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, 'w', newline='', encoding='utf-8') as f:
         # Note the added 'initiator' column:
-        writer = csv.DictWriter(f, fieldnames=['timestamp', 'method', 'type', 'url', 'initiator'])
+        writer = csv.DictWriter(f, fieldnames=['timestamp', 'method', 'type', 'url', 'initiator', 'blocked'])
         writer.writeheader()
         writer.writerows(requests_data)
-    print(f"  [SAVED] {os.path.basename(filepath)} ({len(requests_data)} requests recorded)")
+    n_blocked = sum(1 for r in requests_data if r.get('blocked'))
+    print(f"  [SAVED] {os.path.basename(filepath)} "
+          f"({len(requests_data)} requests recorded, {n_blocked} blocked)")
 def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
     """Visits homepage and subpage, capturing and exporting network traffic for each."""
     safe_domain = base_domain.replace('.', '').replace('/', '').replace(':', '')
@@ -170,7 +200,7 @@ def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
                  except TimeoutException:
                     pass
                  time.sleep(6)
-                 sub_reqs = collect_network_requests(driver)
+                 sub_reqs = collect_network_requests(driver, page_url=sub_url)
                  export_network_csv(sub_file, sub_reqs)
             except Exception as e:
                 print(f"  [ERROR] Failed to crawl subpage {sub_url}: {e}")
@@ -181,7 +211,11 @@ def crawl_site(driver, base_domain, home_url, sub_url, ext_tag):
 def create_driver(extension_paths):
     """Initializes Chrome with specified extensions and performance logging enabled."""
     opts = Options()
-    
+    opts.browser_version = "136"
+    opts.add_argument(
+    "--disable-features=ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported,"
+    "ExtensionManifestV2DeprecationWarning,ExtensionManifestV2DisabledByUserCanReEnable"
+    )
     # Filter out http-recorder if present
     active_paths = [p.replace('\\', '/') for p in extension_paths if 'http-recorder' not in p and os.path.exists(p)]
     
