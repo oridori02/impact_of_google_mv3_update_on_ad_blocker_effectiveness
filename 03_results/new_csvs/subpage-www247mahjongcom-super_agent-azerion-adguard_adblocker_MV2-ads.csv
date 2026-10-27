@@ -1,0 +1,9 @@
+timestamp,method,type,url,initiator,blocked
+1793010364.850607,GET,Document,https://www.247mahjong.com/news/,https://www.247mahjong.com/news/,False
+1793010364.870599,GET,Image,https://www.247mahjong.com/images/247/title.svg,https://www.247mahjong.com/news/,False
+1793010364.884114,GET,Script,https://247games.dev/api/v1/mad/pub/mad.js,https://www.247mahjong.com/news/,False
+1793010364.884272,GET,Image,"data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",https://www.247mahjong.com/news/,False
+1793010364.88431,GET,Image,"data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",https://www.247mahjong.com/news/,False
+1793010364.88434,GET,Image,"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",https://www.247mahjong.com/news/,False
+1793010364.89532,GET,Image,https://www.247mahjong.com/images/247/slice.webp,https://www.247mahjong.com/news/,False
+1793010364.895565,GET,Image,https://www.247mahjong.com/images/247/thumbs_bg.webp,https://www.247mahjong.com/news/,False

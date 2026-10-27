@@ -1,0 +1,13 @@
+timestamp,method,type,url,initiator,blocked
+1793009956.607849,GET,Document,https://homebrewtalk.com/,https://homebrewtalk.com/,False
+1793009956.681809,GET,Document,https://homebrewtalk.com/,https://homebrewtalk.com/,False
+1793009956.713673,GET,Script,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8c54eee6051,https://homebrewtalk.com/,False
+1793009956.726287,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/popup-blocking.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009956.726455,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/basePageJS.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009956.777139,GET,Script,blob:https://homebrewtalk.com/0745330b-2c23-4f19-8401-a1e5a70247c0,https://homebrewtalk.com/,False
+1793009956.778493,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8c54eee6051,False
+1793009956.803677,GET,Image,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/,False
+1793009956.865703,GET,Other,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/,False
+1793009956.909015,POST,XHR,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/fo/3648259888:1793005806:LqiIZJToeQRoNbPgL8YQQ7a1CpxMj-Wg_fucUlluwkA/a508b8c54eee6051/sHtlU97zpnq_EIs7.ZqANOgEnDGMlrg6Sj2IqLLmO3Y-1793009956-1.2.1.1-zCZjBcxTP.ZHozfg6w9gjkL2_V0u65cCz7DFf_K38PK2ef7sg_V0NrfJYynmymrc,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8c54eee6051,False
+1793009956.938349,GET,Script,blob:https://homebrewtalk.com/6963f9ca-2141-437c-ba89-c244dc479bf2,https://homebrewtalk.com/,False
+1793009956.94472,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/gkxb2/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False

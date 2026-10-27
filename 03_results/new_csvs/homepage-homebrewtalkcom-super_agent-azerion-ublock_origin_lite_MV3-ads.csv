@@ -1,0 +1,11 @@
+timestamp,method,type,url,initiator,blocked
+1793010702.860087,GET,Document,https://homebrewtalk.com/,https://homebrewtalk.com/,False
+1793010702.891763,GET,Document,https://homebrewtalk.com/,https://homebrewtalk.com/,False
+1793010702.934836,GET,Script,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508cafd18a8feec,https://homebrewtalk.com/,False
+1793010702.98797,GET,Script,blob:https://homebrewtalk.com/4b70b483-6b1c-4411-babc-dd2488a639c7,https://homebrewtalk.com/,False
+1793010702.988656,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508cafd18a8feec,False
+1793010703.009561,GET,Image,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/,False
+1793010703.177757,GET,Other,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/,False
+1793010703.866783,POST,XHR,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/fo/471282133:1793009417:s2NJB074qhKov1c-ID11KqBHGvF-_Kw_8HckmioTT0s/a508cafd18a8feec/Aytlp1oQvwGDCuyxSWhW.PNNOe71D9dSdjNcKyyDbFM-1793010702-1.2.1.1-q5a0pjN.UnX9_ymUSzt3JQTBxw_hl_A30J65G7EK_PTg6.wHEaFk6MnvwwL9QPRU,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508cafd18a8feec,False
+1793010703.995216,GET,Script,blob:https://homebrewtalk.com/0bc9c722-7cf1-496e-843e-55391a821a1e,https://homebrewtalk.com/,False
+1793010704.017277,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/fxgzw/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False

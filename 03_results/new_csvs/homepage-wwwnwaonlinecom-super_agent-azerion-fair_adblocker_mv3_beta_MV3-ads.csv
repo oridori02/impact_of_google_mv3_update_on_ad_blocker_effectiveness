@@ -1,0 +1,12 @@
+timestamp,method,type,url,initiator,blocked
+1793009969.045303,GET,Document,https://www.nwaonline.com/,https://www.nwaonline.com/,False
+1793009969.820272,GET,Document,https://homebrewtalk.com/whats-new/posts/,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8ec5ded6051,False
+1793009969.853651,GET,Script,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b9176e3f6051,https://homebrewtalk.com/whats-new/posts/,False
+1793009969.854495,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/popup-blocking.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009969.85458,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/basePageJS.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009969.908982,GET,Script,blob:https://homebrewtalk.com/2ca9a33d-b5a6-4c52-a640-f15df076fe41,https://homebrewtalk.com/whats-new/posts/,False
+1793009969.909615,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b9176e3f6051,False
+1793009969.935207,GET,Image,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/whats-new/posts/,False
+1793009970.040446,POST,XHR,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/fo/3648259888:1793005806:LqiIZJToeQRoNbPgL8YQQ7a1CpxMj-Wg_fucUlluwkA/a508b9176e3f6051/g1hrcumOv0sRCt_KT8t1S3_1brZhD7occWT0uAX_Ge0-1793009969-1.2.1.1-WzqJMJr6WBlDeeo8lzj51GluCxXKOqe600Un9milB8DPmm7EzU23a7bq2YJAuKDY,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b9176e3f6051,False
+1793009970.074092,GET,Script,blob:https://homebrewtalk.com/4a763e29-c212-4943-9cdb-4efb41d5a61e,https://homebrewtalk.com/whats-new/posts/,False
+1793009970.080428,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/cozmh/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False

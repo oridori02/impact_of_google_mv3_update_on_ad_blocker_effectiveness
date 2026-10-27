@@ -1,0 +1,12 @@
+timestamp,method,type,url,initiator,blocked
+1793009962.890467,GET,Document,https://homebrewtalk.com/whats-new/posts/,https://homebrewtalk.com/whats-new/posts/,False
+1793009962.94825,GET,Script,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8ec5ded6051,https://homebrewtalk.com/whats-new/posts/,False
+1793009962.954604,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/popup-blocking.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009962.954702,GET,Script,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/basePageJS.js,chrome-extension://biejbogbiblbjeijhpcefbameolnacnj/content/doc-start.js,True
+1793009962.991401,GET,Script,blob:https://homebrewtalk.com/47ffba64-e6d0-4802-871d-001dff4b6977,https://homebrewtalk.com/whats-new/posts/,False
+1793009962.99218,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8ec5ded6051,False
+1793009963.008829,GET,Image,https://homebrewtalk.com/favicon.ico,https://homebrewtalk.com/whats-new/posts/,False
+1793009963.114368,POST,XHR,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/fo/3648259888:1793005806:LqiIZJToeQRoNbPgL8YQQ7a1CpxMj-Wg_fucUlluwkA/a508b8ec5ded6051/75ESIIqiS7DU1SHuy9EWQvceJpyUXSARK5_xoqnO4co-1793009962-1.2.1.1-6kFnvDUhMe1wdkaSF8Nv5zDaQRlpjRE4BNUkYhA9_POD6pbfmA3wRKgaCD1kM4Or,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8ec5ded6051,False
+1793009963.140919,GET,Script,blob:https://homebrewtalk.com/0f80ec9d-843e-4768-b072-b52f78ce2183,https://homebrewtalk.com/whats-new/posts/,False
+1793009963.147781,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/pysqm/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False
+1793009967.7988,POST,XHR,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/fo/3648259888:1793005806:LqiIZJToeQRoNbPgL8YQQ7a1CpxMj-Wg_fucUlluwkA/a508b8ec5ded6051/75ESIIqiS7DU1SHuy9EWQvceJpyUXSARK5_xoqnO4co-1793009962-1.2.1.1-6kFnvDUhMe1wdkaSF8Nv5zDaQRlpjRE4BNUkYhA9_POD6pbfmA3wRKgaCD1kM4Or,https://homebrewtalk.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a508b8ec5ded6051,False
