@@ -1,0 +1,13 @@
+timestamp,method,type,url,initiator,blocked
+1793106615.876917,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793106615.94398,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793106616.024727,GET,Script,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511f082ea9ca61e,https://www.infoplease.com/world,False
+1793106616.334164,GET,Script,blob:https://www.infoplease.com/daa9031a-416e-462f-8cdd-7adaf23cccee,https://www.infoplease.com/world,False
+1793106616.338911,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511f082ea9ca61e,False
+1793106616.475969,GET,Image,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793106616.555758,GET,Image,https://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False
+1793106616.705026,GET,Other,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793106616.710526,GET,Other,http://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False
+1793106617.195246,POST,XHR,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/fo/737923320:1793103321:X6nVdYYjOIOhM9ux6oSbp_LrMKYVzltdGzUJWPKnU3s/a511f082ea9ca61e/wYnf7aSlOXXxmwGSLsIDq9j4vmXGVFzNSz8l4ONHaag-1793106611-1.2.1.1-pyj_gokUdyXMwAXmKyEpYdc42Ob.liIPEwmYgETv7z5ppHkeSn0Zsnti5GugC4Tk,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511f082ea9ca61e,False
+1793106617.384697,GET,Script,blob:https://www.infoplease.com/40d446d8-64f1-408e-adb6-fa73251686be,https://www.infoplease.com/world,False
+1793106617.475537,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/6dwtg/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False

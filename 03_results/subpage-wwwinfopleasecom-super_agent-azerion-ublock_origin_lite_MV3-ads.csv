@@ -1,0 +1,13 @@
+timestamp,method,type,url,initiator,blocked
+1793107346.083208,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793107346.172192,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793107346.256854,GET,Script,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5120271283641ae,https://www.infoplease.com/world,False
+1793107346.442707,GET,Script,blob:https://www.infoplease.com/e05eef76-f9f4-4c39-add9-503c6c7ec023,https://www.infoplease.com/world,False
+1793107346.447053,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5120271283641ae,False
+1793107346.578487,GET,Image,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793107346.60246,GET,Image,https://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False
+1793107346.747759,POST,XHR,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/fo/737923320:1793103321:X6nVdYYjOIOhM9ux6oSbp_LrMKYVzltdGzUJWPKnU3s/a5120271283641ae/iQI7A7QSOT6_cqkI6Pe7GcUwRT3hLgXX9in2OWUPrIE-1793107346-1.2.1.1-tmXxefsmHX7vXimUx64qx2N7OSwPQcg1630hbS9ZSPhjohjKRwARUGEXnebKY5_G,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5120271283641ae,False
+1793107347.017054,GET,Script,blob:https://www.infoplease.com/4e5d3370-ef43-4151-8d1c-2cc9ed1a3034,https://www.infoplease.com/world,False
+1793107347.121587,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/m31yn/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False
+1793107347.569749,GET,Other,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793107347.573246,GET,Other,http://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False

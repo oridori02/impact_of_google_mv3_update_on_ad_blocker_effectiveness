@@ -1,0 +1,14 @@
+timestamp,method,type,url,initiator,blocked
+1793106478.986462,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793106479.015543,GET,Document,https://www.infoplease.com/world,https://www.infoplease.com/world,False
+1793106479.077918,GET,Script,chrome-extension://fglhkgempdijlkcocbefdbmolaghgobe/content/basePageJS.js,chrome-extension://fglhkgempdijlkcocbefdbmolaghgobe/content/doc-start.js,True
+1793106479.080788,GET,Script,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511ed2b4c8e4972,https://www.infoplease.com/world,False
+1793106479.26701,GET,Script,blob:https://www.infoplease.com/208bf87a-fba0-4a0f-aa28-d28b823c611c,https://www.infoplease.com/world,False
+1793106479.271488,GET,Script,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511ed2b4c8e4972,False
+1793106479.397809,GET,Image,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793106479.412571,GET,Image,https://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False
+1793106479.57689,GET,Other,https://www.infoplease.com/favicon.ico,https://www.infoplease.com/world,False
+1793106479.580116,GET,Other,http://www.infoplease.com/themes/ip/favicon.ico,https://www.infoplease.com/world,False
+1793106480.172924,POST,XHR,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/fo/737923320:1793103321:X6nVdYYjOIOhM9ux6oSbp_LrMKYVzltdGzUJWPKnU3s/a511ed2b4c8e4972/k_9_p0daIhnqppXYQHRS_ViI4FEcXqQ9qpHn.6AByMw-1793106474-1.2.1.1-K1qmUxKYDQf70y7LSZvDRZVgZCOAo.DAxquwp4Fpm9nxia7Z4K79NyMl97IgeomD,https://www.infoplease.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a511ed2b4c8e4972,False
+1793106480.324287,GET,Script,blob:https://www.infoplease.com/aae0200b-9fef-4d8d-96c2-92b1394d78c6,https://www.infoplease.com/world,False
+1793106480.382028,GET,Document,https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/2c3yj/0x4AAAAAAADnPIDROrmt1Wwj/dark/fbE/new/normal?lang=auto,https://challenges.cloudflare.com/turnstile/v0/b/d2d3316b729e/api.js?onload=DraY9&render=explicit,False
