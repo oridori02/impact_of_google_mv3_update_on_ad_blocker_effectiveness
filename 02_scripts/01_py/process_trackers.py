@@ -21,7 +21,7 @@ import pandas as pd
 # --- DEFAULT PATHS (same repo layout as the other scripts) ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
-DEFAULT_INPUT_DIR = os.path.join(REPO_ROOT, "03_results", "new_check_csvs")
+DEFAULT_INPUT_DIR = os.path.join(REPO_ROOT, "03_results", "new_csvs")
 DEFAULT_OUTPUT_DIR = os.path.join(REPO_ROOT, "03_results", "python_analysis")
 WHOTRACKS_DIR = os.path.join(REPO_ROOT, "01_data", "06_whotracks.me-data")
 

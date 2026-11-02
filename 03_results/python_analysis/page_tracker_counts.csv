@@ -1,0 +1,379 @@
+page_type,domain,group,instance_blocker,n_total_requests,n_first_party_requests,n_third_party_requests,n_unique_third_party_domains,n_whotracksme_trackers,n_blocked_requests
+homepage,finvizcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,153,125,28,19,,10
+homepage,finvizcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,146,123,23,15,,13
+homepage,finvizcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,132,116,16,13,,7
+homepage,finvizcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,129,113,16,13,,6
+homepage,finvizcom,super_agent-azerion,Baseline,169,133,36,25,,0
+homepage,finvizcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,132,116,16,12,,7
+homepage,finvizcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,127,112,15,12,,8
+homepage,finvizcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,165,126,39,28,,0
+homepage,finvizcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,110,108,2,2,,6
+homepage,homebrewtalkcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,10,7,3,2,,0
+homepage,homebrewtalkcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,10,7,3,2,,0
+homepage,homebrewtalkcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,11,7,4,3,,0
+homepage,homebrewtalkcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,10,7,3,2,,0
+homepage,homebrewtalkcom,super_agent-azerion,Baseline,10,7,3,2,,0
+homepage,homebrewtalkcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,10,7,3,2,,2
+homepage,homebrewtalkcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,10,7,3,2,,1
+homepage,homebrewtalkcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,10,7,3,2,,0
+homepage,homebrewtalkcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,10,7,3,2,,0
+homepage,insidethemagicnet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,51,30,21,12,,8
+homepage,insidethemagicnet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,78,50,28,16,,3
+homepage,insidethemagicnet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,35,21,14,7,,6
+homepage,insidethemagicnet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,58,41,17,9,,4
+homepage,insidethemagicnet,super_agent-azerion,Baseline,80,50,30,17,,0
+homepage,insidethemagicnet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,58,41,17,9,,5
+homepage,insidethemagicnet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,58,41,17,9,,5
+homepage,insidethemagicnet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,81,51,30,17,,0
+homepage,insidethemagicnet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,27,19,8,3,,7
+homepage,life-in-the-lofthousecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,76,53,23,16,,5
+homepage,life-in-the-lofthousecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,80,52,28,18,,5
+homepage,life-in-the-lofthousecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,56,43,13,9,,4
+homepage,life-in-the-lofthousecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,64,44,20,12,,2
+homepage,life-in-the-lofthousecom,super_agent-azerion,Baseline,83,54,29,17,,0
+homepage,life-in-the-lofthousecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,64,44,20,12,,3
+homepage,life-in-the-lofthousecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,62,44,18,11,,5
+homepage,life-in-the-lofthousecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,81,52,29,17,,0
+homepage,life-in-the-lofthousecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,59,42,17,10,,6
+homepage,thatgrapejuicenet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,65,47,18,7,,2
+homepage,thatgrapejuicenet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,65,47,18,7,,2
+homepage,thatgrapejuicenet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,62,45,17,6,,2
+homepage,thatgrapejuicenet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,62,45,17,6,,2
+homepage,thatgrapejuicenet,super_agent-azerion,Baseline,87,57,30,15,,0
+homepage,thatgrapejuicenet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,64,47,17,6,,3
+homepage,thatgrapejuicenet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,63,46,17,6,,3
+homepage,thatgrapejuicenet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,88,58,30,15,,0
+homepage,thatgrapejuicenet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,61,46,15,4,,3
+homepage,topsecretrecipescom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,136,92,44,19,,7
+homepage,topsecretrecipescom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,131,90,41,19,,5
+homepage,topsecretrecipescom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,114,83,31,15,,6
+homepage,topsecretrecipescom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,113,83,30,14,,6
+homepage,topsecretrecipescom,super_agent-azerion,Baseline,139,96,43,23,,0
+homepage,topsecretrecipescom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,114,83,31,14,,7
+homepage,topsecretrecipescom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,103,83,20,14,,15
+homepage,topsecretrecipescom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,144,96,48,26,,0
+homepage,topsecretrecipescom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,96,82,14,10,,19
+homepage,www247mahjongcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion,Baseline,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,129,120,9,4,,1
+homepage,www247mahjongcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,129,120,9,4,,4
+homepage,www247mahjongcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,129,120,9,4,,0
+homepage,www247mahjongcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,129,120,9,4,,0
+homepage,wwwamericanthinkercom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,167,123,44,22,,14
+homepage,wwwamericanthinkercom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,0,0,0,0,,0
+homepage,wwwamericanthinkercom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,157,118,39,19,,15
+homepage,wwwamericanthinkercom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,133,116,17,12,,12
+homepage,wwwamericanthinkercom,super_agent-azerion,Baseline,228,141,87,33,,0
+homepage,wwwamericanthinkercom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,132,116,16,12,,12
+homepage,wwwamericanthinkercom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,133,117,16,12,,13
+homepage,wwwamericanthinkercom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,212,132,80,31,,0
+homepage,wwwamericanthinkercom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,119,112,7,5,,13
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,213,163,50,23,,5
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,208,160,48,18,,13
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,183,158,25,10,,9
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,183,158,25,10,,9
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion,Baseline,224,164,60,22,,0
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,188,160,28,12,,10
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,194,160,34,13,,17
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,221,164,57,22,,0
+homepage,wwwbehindthesteelcurtaincom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,180,156,24,8,,7
+homepage,wwwepochtimescom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,274,244,30,9,,2
+homepage,wwwepochtimescom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,268,239,29,9,,4
+homepage,wwwepochtimescom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,258,236,22,7,,4
+homepage,wwwepochtimescom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,258,236,22,7,,4
+homepage,wwwepochtimescom,super_agent-azerion,Baseline,279,245,34,9,,0
+homepage,wwwepochtimescom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,262,238,24,8,,3
+homepage,wwwepochtimescom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,258,239,19,6,,11
+homepage,wwwepochtimescom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,278,246,32,9,,0
+homepage,wwwepochtimescom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,243,234,9,3,,11
+homepage,wwwfox5atlantacom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,244,68,176,35,,8
+homepage,wwwfox5atlantacom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,240,66,174,35,,8
+homepage,wwwfox5atlantacom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,237,66,171,34,,9
+homepage,wwwfox5atlantacom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,242,72,170,33,,10
+homepage,wwwfox5atlantacom,super_agent-azerion,Baseline,261,73,188,39,,0
+homepage,wwwfox5atlantacom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,254,71,183,33,,11
+homepage,wwwfox5atlantacom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,235,66,169,33,,11
+homepage,wwwfox5atlantacom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,270,77,193,42,,0
+homepage,wwwfox5atlantacom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,182,56,126,17,,32
+homepage,wwwhogshavencom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,217,166,51,22,,5
+homepage,wwwhogshavencom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,201,160,41,17,,13
+homepage,wwwhogshavencom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,182,158,24,9,,9
+homepage,wwwhogshavencom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,182,158,24,9,,9
+homepage,wwwhogshavencom,super_agent-azerion,Baseline,238,166,72,21,,0
+homepage,wwwhogshavencom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,187,157,30,11,,10
+homepage,wwwhogshavencom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,193,159,34,12,,19
+homepage,wwwhogshavencom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,236,169,67,21,,0
+homepage,wwwhogshavencom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,179,156,23,7,,7
+homepage,wwwhometownstationcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,122,29,93,18,,15
+homepage,wwwhometownstationcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,106,31,75,21,,5
+homepage,wwwhometownstationcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,81,25,56,16,,0
+homepage,wwwhometownstationcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,89,26,63,12,,16
+homepage,wwwhometownstationcom,super_agent-azerion,Baseline,137,35,102,29,,0
+homepage,wwwhometownstationcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,86,25,61,10,,18
+homepage,wwwhometownstationcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,94,28,66,14,,16
+homepage,wwwhometownstationcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,137,35,102,29,,0
+homepage,wwwhometownstationcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,79,23,56,8,,19
+homepage,wwwinfopleasecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,104,77,27,18,,6
+homepage,wwwinfopleasecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,103,77,26,17,,7
+homepage,wwwinfopleasecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,92,76,16,11,,6
+homepage,wwwinfopleasecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,97,76,21,13,,9
+homepage,wwwinfopleasecom,super_agent-azerion,Baseline,123,80,43,26,,0
+homepage,wwwinfopleasecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,94,75,19,11,,11
+homepage,wwwinfopleasecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,97,76,21,14,,12
+homepage,wwwinfopleasecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,142,83,59,31,,0
+homepage,wwwinfopleasecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,60,57,3,2,,5
+homepage,wwwlyricscom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,55,9,46,9,,2
+homepage,wwwlyricscom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,55,9,46,9,,2
+homepage,wwwlyricscom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,62,14,48,11,,4
+homepage,wwwlyricscom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,57,12,45,8,,4
+homepage,wwwlyricscom,super_agent-azerion,Baseline,64,12,52,12,,0
+homepage,wwwlyricscom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,55,9,46,8,,4
+homepage,wwwlyricscom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,53,9,44,8,,5
+homepage,wwwlyricscom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,69,16,53,13,,0
+homepage,wwwlyricscom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,46,12,34,6,,4
+homepage,wwwnwaonlinecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,125,15,110,27,,4
+homepage,wwwnwaonlinecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,136,15,121,26,,4
+homepage,wwwnwaonlinecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,119,15,104,26,,4
+homepage,wwwnwaonlinecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,121,15,106,27,,3
+homepage,wwwnwaonlinecom,super_agent-azerion,Baseline,134,14,120,28,,0
+homepage,wwwnwaonlinecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,9,6,3,2,,2
+homepage,wwwnwaonlinecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,115,11,104,24,,3
+homepage,wwwnwaonlinecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,131,14,117,28,,0
+homepage,wwwnwaonlinecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,93,9,84,16,,10
+homepage,wwwradionet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,125,117,8,5,,1
+homepage,wwwradionet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,87,81,6,5,,1
+homepage,wwwradionet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,90,81,9,6,,1
+homepage,wwwradionet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,87,81,6,5,,1
+homepage,wwwradionet,super_agent-azerion,Baseline,117,109,8,5,,0
+homepage,wwwradionet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,88,82,6,5,,1
+homepage,wwwradionet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,88,82,6,5,,1
+homepage,wwwradionet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,117,109,8,5,,0
+homepage,wwwradionet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,85,81,4,3,,2
+homepage,wwwtravelandleisurecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,51,27,24,9,,1
+homepage,wwwtravelandleisurecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,51,27,24,9,,1
+homepage,wwwtravelandleisurecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,43,26,17,8,,2
+homepage,wwwtravelandleisurecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,41,26,15,7,,4
+homepage,wwwtravelandleisurecom,super_agent-azerion,Baseline,54,27,27,10,,0
+homepage,wwwtravelandleisurecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,41,26,15,7,,5
+homepage,wwwtravelandleisurecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,35,26,9,6,,9
+homepage,wwwtravelandleisurecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,52,27,25,9,,0
+homepage,wwwtravelandleisurecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,26,23,3,2,,4
+homepage,wwwtreehuggercom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,37,22,15,9,,1
+homepage,wwwtreehuggercom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,38,22,16,10,,1
+homepage,wwwtreehuggercom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,35,21,14,9,,2
+homepage,wwwtreehuggercom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,33,21,12,8,,4
+homepage,wwwtreehuggercom,super_agent-azerion,Baseline,38,22,16,9,,0
+homepage,wwwtreehuggercom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,32,21,11,7,,5
+homepage,wwwtreehuggercom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,31,21,10,7,,8
+homepage,wwwtreehuggercom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,39,22,17,10,,0
+homepage,wwwtreehuggercom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,21,18,3,2,,4
+homepage,wwwwpxicom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,55,17,38,22,,6
+homepage,wwwwpxicom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,56,17,39,22,,4
+homepage,wwwwpxicom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,51,16,35,19,,6
+homepage,wwwwpxicom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,52,17,35,19,,6
+homepage,wwwwpxicom,super_agent-azerion,Baseline,59,17,42,25,,0
+homepage,wwwwpxicom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,50,17,33,18,,7
+homepage,wwwwpxicom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,50,16,34,19,,9
+homepage,wwwwpxicom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,62,16,46,25,,0
+homepage,wwwwpxicom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,28,14,14,9,,11
+homepage,wwwwrestlinginccom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,78,61,17,13,,7
+homepage,wwwwrestlinginccom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,80,62,18,14,,4
+homepage,wwwwrestlinginccom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,50,44,6,5,,2
+homepage,wwwwrestlinginccom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,59,49,10,7,,8
+homepage,wwwwrestlinginccom,super_agent-azerion,Baseline,92,60,32,14,,0
+homepage,wwwwrestlinginccom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,59,49,10,7,,9
+homepage,wwwwrestlinginccom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,57,49,8,6,,7
+homepage,wwwwrestlinginccom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,86,58,28,14,,0
+homepage,wwwwrestlinginccom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,42,41,1,1,,5
+subpage,finvizcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,27,18,9,9,,2
+subpage,finvizcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,27,18,9,9,,2
+subpage,finvizcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,30,19,11,11,,1
+subpage,finvizcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,29,18,11,11,,1
+subpage,finvizcom,super_agent-azerion,Baseline,35,21,14,13,,0
+subpage,finvizcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,31,19,12,11,,2
+subpage,finvizcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,30,19,11,11,,2
+subpage,finvizcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,37,24,13,13,,0
+subpage,finvizcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,17,16,1,1,,5
+subpage,homebrewtalkcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion,Baseline,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,9,6,3,2,,2
+subpage,homebrewtalkcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,8,5,3,2,,1
+subpage,homebrewtalkcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,8,5,3,2,,0
+subpage,homebrewtalkcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,8,5,3,2,,0
+subpage,insidethemagicnet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,45,31,14,11,,6
+subpage,insidethemagicnet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,71,53,18,15,,2
+subpage,insidethemagicnet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,29,21,8,6,,5
+subpage,insidethemagicnet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,53,41,12,9,,1
+subpage,insidethemagicnet,super_agent-azerion,Baseline,75,52,23,15,,0
+subpage,insidethemagicnet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,54,41,13,9,,2
+subpage,insidethemagicnet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,52,41,11,8,,3
+subpage,insidethemagicnet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,73,51,22,16,,0
+subpage,insidethemagicnet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,22,19,3,3,,6
+subpage,life-in-the-lofthousecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,65,49,16,12,,6
+subpage,life-in-the-lofthousecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,69,50,19,15,,2
+subpage,life-in-the-lofthousecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,45,40,5,4,,4
+subpage,life-in-the-lofthousecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,51,41,10,9,,1
+subpage,life-in-the-lofthousecom,super_agent-azerion,Baseline,65,50,15,12,,0
+subpage,life-in-the-lofthousecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,51,41,10,9,,2
+subpage,life-in-the-lofthousecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,49,41,8,8,,4
+subpage,life-in-the-lofthousecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,68,51,17,13,,0
+subpage,life-in-the-lofthousecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,48,41,7,7,,3
+subpage,thatgrapejuicenet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,53,42,11,9,,7
+subpage,thatgrapejuicenet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,53,42,11,9,,7
+subpage,thatgrapejuicenet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,51,41,10,8,,7
+subpage,thatgrapejuicenet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,49,39,10,8,,7
+subpage,thatgrapejuicenet,super_agent-azerion,Baseline,79,53,26,19,,0
+subpage,thatgrapejuicenet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,51,41,10,8,,8
+subpage,thatgrapejuicenet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,53,42,11,9,,7
+subpage,thatgrapejuicenet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,80,53,27,20,,0
+subpage,thatgrapejuicenet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,49,40,9,7,,7
+subpage,topsecretrecipescom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,126,79,47,20,,7
+subpage,topsecretrecipescom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,124,78,46,19,,5
+subpage,topsecretrecipescom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,105,71,34,14,,3
+subpage,topsecretrecipescom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,103,71,32,13,,3
+subpage,topsecretrecipescom,super_agent-azerion,Baseline,135,83,52,23,,0
+subpage,topsecretrecipescom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,106,71,35,13,,5
+subpage,topsecretrecipescom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,90,71,19,13,,15
+subpage,topsecretrecipescom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,140,83,57,25,,0
+subpage,topsecretrecipescom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,84,69,15,9,,21
+subpage,www247mahjongcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,11,7,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,8,4,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,8,4,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,8,4,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion,Baseline,11,7,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,8,4,4,2,,1
+subpage,www247mahjongcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,8,4,4,2,,1
+subpage,www247mahjongcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,11,7,4,2,,0
+subpage,www247mahjongcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,8,4,4,2,,0
+subpage,wwwamericanthinkercom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,87,66,21,13,,4
+subpage,wwwamericanthinkercom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,92,71,21,15,,4
+subpage,wwwamericanthinkercom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,84,66,18,12,,4
+subpage,wwwamericanthinkercom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,97,65,32,16,,6
+subpage,wwwamericanthinkercom,super_agent-azerion,Baseline,129,65,64,26,,0
+subpage,wwwamericanthinkercom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,83,65,18,11,,5
+subpage,wwwamericanthinkercom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,83,66,17,11,,6
+subpage,wwwamericanthinkercom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,116,71,45,20,,0
+subpage,wwwamericanthinkercom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,74,63,11,6,,7
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,191,150,41,21,,7
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,181,147,34,17,,11
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,165,146,19,9,,9
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,165,146,19,9,,9
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion,Baseline,212,161,51,22,,0
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,170,148,22,11,,10
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,174,147,27,12,,18
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,212,161,51,22,,0
+subpage,wwwbehindthesteelcurtaincom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,161,144,17,7,,9
+subpage,wwwepochtimescom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,64,46,18,13,,20
+subpage,wwwepochtimescom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,58,44,14,9,,2
+subpage,wwwepochtimescom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,53,42,11,7,,2
+subpage,wwwepochtimescom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,53,44,9,7,,2
+subpage,wwwepochtimescom,super_agent-azerion,Baseline,78,43,35,18,,0
+subpage,wwwepochtimescom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,52,43,9,7,,2
+subpage,wwwepochtimescom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,48,41,7,6,,5
+subpage,wwwepochtimescom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,81,46,35,18,,0
+subpage,wwwepochtimescom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,39,36,3,3,,9
+subpage,wwwfox5atlantacom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,165,46,119,28,,8
+subpage,wwwfox5atlantacom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,163,45,118,28,,8
+subpage,wwwfox5atlantacom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,170,45,125,28,,8
+subpage,wwwfox5atlantacom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,165,46,119,28,,8
+subpage,wwwfox5atlantacom,super_agent-azerion,Baseline,178,52,126,31,,0
+subpage,wwwfox5atlantacom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,166,46,120,28,,9
+subpage,wwwfox5atlantacom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,169,45,124,27,,10
+subpage,wwwfox5atlantacom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,170,47,123,31,,0
+subpage,wwwfox5atlantacom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,118,41,77,14,,40
+subpage,wwwhogshavencom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,201,155,46,21,,6
+subpage,wwwhogshavencom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,182,147,35,17,,11
+subpage,wwwhogshavencom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,165,146,19,9,,9
+subpage,wwwhogshavencom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,165,146,19,9,,9
+subpage,wwwhogshavencom,super_agent-azerion,Baseline,233,175,58,22,,0
+subpage,wwwhogshavencom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,170,155,15,11,,10
+subpage,wwwhogshavencom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,180,147,33,12,,19
+subpage,wwwhogshavencom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,233,165,68,22,,0
+subpage,wwwhogshavencom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,161,144,17,7,,9
+subpage,wwwhometownstationcom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,121,39,82,27,,14
+subpage,wwwhometownstationcom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,107,38,69,26,,15
+subpage,wwwhometownstationcom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,95,44,51,16,,15
+subpage,wwwhometownstationcom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,82,40,42,18,,9
+subpage,wwwhometownstationcom,super_agent-azerion,Baseline,138,47,91,36,,0
+subpage,wwwhometownstationcom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,84,43,41,16,,11
+subpage,wwwhometownstationcom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,85,42,43,19,,10
+subpage,wwwhometownstationcom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,136,47,89,35,,0
+subpage,wwwhometownstationcom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,74,39,35,14,,14
+subpage,wwwinfopleasecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion,Baseline,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,12,9,3,2,,1
+subpage,wwwinfopleasecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,12,9,3,2,,1
+subpage,wwwinfopleasecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,12,9,3,2,,0
+subpage,wwwinfopleasecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,12,9,3,2,,0
+subpage,wwwlyricscom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,42,7,35,6,,2
+subpage,wwwlyricscom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,42,7,35,6,,2
+subpage,wwwlyricscom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,42,7,35,6,,2
+subpage,wwwlyricscom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,45,7,38,6,,2
+subpage,wwwlyricscom,super_agent-azerion,Baseline,50,10,40,8,,0
+subpage,wwwlyricscom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,48,9,39,6,,3
+subpage,wwwlyricscom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,44,7,37,6,,4
+subpage,wwwlyricscom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,50,10,40,8,,0
+subpage,wwwlyricscom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,34,6,28,4,,4
+subpage,wwwnwaonlinecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,49,7,42,17,,1
+subpage,wwwnwaonlinecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,49,7,42,17,,1
+subpage,wwwnwaonlinecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,39,7,32,16,,2
+subpage,wwwnwaonlinecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,40,7,33,17,,1
+subpage,wwwnwaonlinecom,super_agent-azerion,Baseline,47,7,40,17,,0
+subpage,wwwnwaonlinecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,46,7,39,18,,4
+subpage,wwwnwaonlinecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,41,7,34,17,,2
+subpage,wwwnwaonlinecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,48,7,41,17,,0
+subpage,wwwnwaonlinecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,21,4,17,8,,6
+subpage,wwwradionet,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,100,92,8,5,,1
+subpage,wwwradionet,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,71,65,6,5,,1
+subpage,wwwradionet,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,74,65,9,6,,1
+subpage,wwwradionet,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,71,65,6,5,,1
+subpage,wwwradionet,super_agent-azerion,Baseline,99,91,8,5,,0
+subpage,wwwradionet,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,72,66,6,5,,1
+subpage,wwwradionet,super_agent-azerion-stands_adblocker_MV2,Stands MV2,72,66,6,5,,1
+subpage,wwwradionet,super_agent-azerion-ublock_origin_MV2,uBlock MV2,99,91,8,5,,0
+subpage,wwwradionet,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,69,65,4,3,,2
+subpage,wwwtravelandleisurecom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,36,20,16,8,,0
+subpage,wwwtravelandleisurecom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,36,20,16,8,,0
+subpage,wwwtravelandleisurecom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,35,20,15,7,,1
+subpage,wwwtravelandleisurecom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,35,20,15,7,,2
+subpage,wwwtravelandleisurecom,super_agent-azerion,Baseline,37,20,17,9,,0
+subpage,wwwtravelandleisurecom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,35,20,15,7,,3
+subpage,wwwtravelandleisurecom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,28,20,8,6,,7
+subpage,wwwtravelandleisurecom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,36,20,16,8,,0
+subpage,wwwtravelandleisurecom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,19,17,2,1,,5
+subpage,wwwtreehuggercom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,37,19,18,9,,1
+subpage,wwwtreehuggercom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,31,19,12,9,,3
+subpage,wwwtreehuggercom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,29,18,11,8,,1
+subpage,wwwtreehuggercom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,28,18,10,7,,2
+subpage,wwwtreehuggercom,super_agent-azerion,Baseline,32,19,13,9,,0
+subpage,wwwtreehuggercom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,38,18,20,8,,3
+subpage,wwwtreehuggercom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,27,18,9,7,,4
+subpage,wwwtreehuggercom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,32,19,13,9,,0
+subpage,wwwtreehuggercom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,18,15,3,2,,5
+subpage,wwwwpxicom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,52,15,37,22,,3
+subpage,wwwwpxicom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,54,16,38,22,,3
+subpage,wwwwpxicom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,48,15,33,19,,6
+subpage,wwwwpxicom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,49,15,34,19,,6
+subpage,wwwwpxicom,super_agent-azerion,Baseline,56,17,39,25,,0
+subpage,wwwwpxicom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,47,15,32,18,,7
+subpage,wwwwpxicom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,49,15,34,19,,9
+subpage,wwwwpxicom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,59,16,43,25,,0
+subpage,wwwwpxicom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,25,13,12,9,,11
+subpage,wwwwrestlinginccom,super_agent-azerion-adblock_plus_free_ad_blocker_3.25.1_MV2,Adblock Plus MV2,68,51,17,13,,5
+subpage,wwwwrestlinginccom,super_agent-azerion-adblock_plus_free_ad_blocker_4.5.1_MV3,Adblock Plus MV3,68,50,18,14,,6
+subpage,wwwwrestlinginccom,super_agent-azerion-adguard_adblocker_MV2,AdGuard MV2,42,37,5,5,,2
+subpage,wwwwrestlinginccom,super_agent-azerion-adguard_adblocker_mv3_beta_MV3,AdGuard MV3,48,40,8,7,,8
+subpage,wwwwrestlinginccom,super_agent-azerion,Baseline,79,51,28,14,,0
+subpage,wwwwrestlinginccom,super_agent-azerion-fair_adblocker_mv3_beta_MV3,Stands MV3,48,40,8,7,,10
+subpage,wwwwrestlinginccom,super_agent-azerion-stands_adblocker_MV2,Stands MV2,47,40,7,6,,10
+subpage,wwwwrestlinginccom,super_agent-azerion-ublock_origin_MV2,uBlock MV2,77,51,26,14,,0
+subpage,wwwwrestlinginccom,super_agent-azerion-ublock_origin_lite_MV3,uBlock MV3,37,36,1,1,,3
